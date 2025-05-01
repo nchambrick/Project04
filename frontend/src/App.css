@@ -1,0 +1,25 @@
+/* src/App.css */
+.app-background {
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+  
+  .navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.6); /* dark translucent background for cards */
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+  }
+  
+  .sticky-sidebar {
+    position: sticky;
+    top: 100px;
+    z-index: 10;
+  }
+  
