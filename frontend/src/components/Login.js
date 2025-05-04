@@ -19,7 +19,7 @@ function Login() {
     try {
       const res = await axios.post('http://localhost:3001/api/auth/login', formData);
       alert('Login successful!');
-      // Save token to localStorage (optional)
+      // Saved token to localStorage
       localStorage.setItem('token', res.data.token);
     } catch (err) {
       console.error('Login failed:', err);

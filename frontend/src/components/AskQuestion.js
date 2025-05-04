@@ -22,7 +22,7 @@ function AskQuestion({ categories, onQuestionAdded }) {
   
     
     
-    const finalCategory = newCategory || category; // use newCategory if entered, else existing
+    const finalCategory = newCategory || category; 
 
     if (!finalCategory || !questionText) {
       alert('Please fill in both fields.');
