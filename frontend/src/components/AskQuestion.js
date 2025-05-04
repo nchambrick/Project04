@@ -18,6 +18,9 @@ function AskQuestion({ categories, onQuestionAdded }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log("Submit button clicked");
+  
+    
     
     const finalCategory = newCategory || category; // use newCategory if entered, else existing
 

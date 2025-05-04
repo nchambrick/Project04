@@ -21,5 +21,9 @@
     position: sticky;
     top: 100px;
     z-index: 10;
+    max-height: 400px; /* adjust to your layout */
+    overflow-y: auto;
+    padding-right: 8px; /* optional, avoids hidden scrollbar content */
   }
+  
   
